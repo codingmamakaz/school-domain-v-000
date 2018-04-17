@@ -22,5 +22,4 @@ class School
       roster.sort
     end
 
-
 end
