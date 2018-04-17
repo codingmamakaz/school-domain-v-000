@@ -1,4 +1,10 @@
 class School
 
-roster = Hash.new
+attr_accessor : roster, name
+
+def initialize
+  @name = name
+  @roster = {}
+end
+
 end
