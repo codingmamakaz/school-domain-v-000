@@ -1,12 +1,17 @@
 class School
-  attr_accessor :name, :roster
+  attr_accessor :name, :roster, :grade
 
     def initialize(name)
       @name = name
       @roster = {}
     end
 
-    def add_student
+
+
+    def add_student(name, grade)
+      @roster[@grade] = []
+      @roster[@grade] << @name
+      # @roster => {@grade =>[@name]} 
     end
 
 end
