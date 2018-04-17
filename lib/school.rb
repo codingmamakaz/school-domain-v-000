@@ -1,6 +1,4 @@
 class School
 
-def initialize
-  roster = Hash.new 
-end
+roster = Hash.new
 end
